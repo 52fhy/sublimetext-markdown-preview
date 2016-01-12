@@ -780,7 +780,7 @@ class Compiler(object):
         else:
             html = u'<!DOCTYPE html>'
             html += '<html><head><meta charset="utf-8">'
-            html += '<html><head><meta name="viewport" content="width=device-width;initial-scale=1.0">'
+            html += '<html><head><meta name="viewport" content="width=device-width,initial-scale=1.0"/>'
             html += self.get_meta()
             html += self.get_stylesheet()
             html += self.get_javascript()
