@@ -12,9 +12,12 @@ sublimetext-markdown-preview项目请浏览：[查看](sublimetext-markdown-prev
 
 1. 打开sublimetext，点击`Preferences` > `Browse Packages`;
 2. 进入`Sublime Text3/Data/Installed Packages` 目录;
-3. 关闭sublimetext，用好压打开`Markdown Preview.sublime-package`，复制下载的`markdown.css`和`MarkdownPreview.py`到`Markdown Preview.sublime-package`，覆盖即可；
+3. 关闭sublimetext，用好压打开`Markdown Preview.sublime-package`，复制下载的`markdown.css`到`Markdown Preview.sublime-package`，覆盖即可；
 4. 重新打开Sublime Text就安装好啦！
 
 ## 预览生成 :
 
 使用`ctrl+B` (Windows/Linux) 或者 `cmd+B` (Mac)来编译当前markdown文件.
+
+## 注意
+安装`SublimeREPL`插件后导致编译快捷键冲突。
